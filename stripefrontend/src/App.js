@@ -50,6 +50,7 @@ function App() {
                     token={makePayment}
                     name="Buy Product"
                     amount={product.price * 100}
+                    currency="INR"
                     shippingAddress
                     billingAddress
                 >
